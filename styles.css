@@ -1,0 +1,131 @@
+body{
+    background-color: #007BFF;
+    font-family: sans-serif;
+}
+
+header {
+    margin: 10px;
+    padding: 4px;
+}
+
+.zagolovok{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.Hello{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+}
+
+.buttun{
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #333;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+}
+
+.buttun:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px 2px 4px 0 slateblue ;
+    border-radius: 10px;
+}
+
+.img2:hover {
+    box-shadow: 4px 4px 5px 0 slateblue;
+}
+
+.Nefor{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.number{
+    color: white;
+    text-align: right;
+    margin-bottom: auto;
+    display: inline;
+    float: right;
+    font-family: 'Gill Sans', sans-serif
+}
+
+.lox{
+    color: #333;
+    text-align: center;
+    color: white;
+}
+
+nav p{
+    color: azure;
+    padding: 10px;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+
+.simple-footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.simple-footer p, .simple-footer small {
+    margin-bottom: 5px;
+}
+
+.simple-footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+.pdd {
+    position: fixed;
+    background-color: #13a7cc;
+    right: 0PX;
+    top : 600px;
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px 1px gray;
+}
+
+.pdd:hover {
+    color: rgb(226, 216, 216);
+}
+
+.support-button { 
+    position: fixed;
+    padding: 9px; 
+    right: 0px;
+    top: 600px;
+    font-size: 16px; 
+    color: #fff; 
+    background-color: #ff0000;
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+
+    .support-button:hover {
+    color: rgb(214, 214, 214);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
